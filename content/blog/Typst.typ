@@ -11,7 +11,7 @@
     "typst",
     "latex",
   ),
-  author: "中文翻译: Casea",
+  author: "中文翻译：Casea",
   show-outline: true,
 )
 
@@ -19,7 +19,6 @@
 // #figure(
 //   image("assets/Typst.pdf", width: 100%, page: 10),
 // )
-#let num_pages = 206
-#for p in range(1, num_pages + 1) {
-  image("assets/Typst.pdf", width: 100%, page: p)
-}
+
+#image("assets/Typst.pdf", width: 100%)
+
