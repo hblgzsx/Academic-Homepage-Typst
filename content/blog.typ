@@ -7,12 +7,9 @@
   tags: (),
   show-outline: true,
   body,
-  author: "Max Baker",
+  author: "周树勋",
 ) = {
-
   show: it => {
-    
-
     // Generate metadata for Astro content collections
     [
       #metadata((
@@ -35,7 +32,7 @@
     show math.equation: set text(weight: 500)
     // show math.equation: to-mathml
     show math.equation: try-to-mathml
-    
+
 
     // Footnotes
     show: it => {
@@ -48,20 +45,16 @@
 
 
     // Main body.
-    outline(title:"", indent: auto)
+    outline(title: "", indent: auto)
     set par(justify: true)
     it
-
   }
 
 
-
-
-
   body
-  
 
-  context{
+
+  context {
     query(footnote)
       .enumerate()
       .map(((idx, it)) => {
@@ -75,5 +68,4 @@
       })
       .join()
   }
-
 }
