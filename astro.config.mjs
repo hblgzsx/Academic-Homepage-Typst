@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://hblgzsx.github.io',
-  base: '/academic-homepage-typst/',
+  base: '/Academic-Homepage-Typst/',
 
   integrations: [
     sitemap({
