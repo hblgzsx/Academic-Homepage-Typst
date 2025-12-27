@@ -20,6 +20,6 @@
 //   image("assets/Typst.pdf", width: 100%, page: 10),
 // )
 #let num_pages = 206
-#for page in range(1, num_pages + 1) {
-  image("assets/Typst.pdf", width: 100%, page: page)
+#for p in range(1, num_pages + 1) {
+  image("assets/Typst.pdf", width: 100%, page: p)
 }

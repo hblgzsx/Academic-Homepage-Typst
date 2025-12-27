@@ -17,7 +17,7 @@
 
 
 #let num_pages = 5
-#for page in range(1, num_pages + 1) {
-  image("assets/Latex2typst.pdf", width: 100%, page: page)
+#for p in range(1, num_pages + 1) {
+  image("assets/Latex2typst.pdf", width: 100%, page: p)
 }
 
