@@ -17,6 +17,6 @@
 
 
 
-#image("assets/Latex2typst.pdf", width: 100%)
+#image("../../public/assets/Latex2typst.pdf", width: 100%)
 
 

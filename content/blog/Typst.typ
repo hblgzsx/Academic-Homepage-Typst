@@ -20,5 +20,5 @@
 //   image("assets/Typst.pdf", width: 100%, page: 10),
 // )
 
-#image("assets/Typst.pdf", width: 100%)
+#image("../../public/assets/Typst.pdf", width: 100%)
 
